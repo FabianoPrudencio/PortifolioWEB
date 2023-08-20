@@ -1,0 +1,106 @@
+﻿body {
+    background-color: lightslategrey;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: max(2vw, 16px);
+    line-height: 200%;
+    font-family: 'Gotham-Book';
+    color: black;
+    margin-top: 1vw;
+    border-bottom: 3px solid black;
+}
+
+.table1 {
+    margin-top: 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    padding: 5px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+    .table1 th {
+        font-size: 20px;
+        text-transform: uppercase;
+        width: 3%;
+        text-align: left;
+        color: black;
+        padding: 0.5em;
+    }
+
+.sobre {
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+    .sobre h5 {
+        font-size: max(1.5vw, 16px);
+        color: black;
+        padding: 0.1vw;
+        text-align: left;
+    }
+
+    .sobre img {
+        max-width: 7%;
+        float: left;
+        margin: 1vw;
+    }
+
+footer {
+    margin-top: 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 0.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    footer a {
+        margin-top: 0.5vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        margin-bottom: 0.5vw;
+        padding: 0.5em;
+    }
+
+.rounded-icon {
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 0.2em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .rounded-icon:hover {
+        background-color: #555;
+        transform: scale(1.2);
+    }
+
+
+.direitos {
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+    .direitos h6 {
+        margin-top: 0.5vw;
+        font-size: max(1vw, 16px);
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        color: black;
+        text-align: left;
+    }
